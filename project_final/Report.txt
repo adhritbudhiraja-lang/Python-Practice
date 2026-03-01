@@ -1,0 +1,22 @@
+
+MINOR PROJECT REPORT
+Title: Stock Price Prediction
+
+1. Introduction
+Stock price prediction is the process of estimating future values of a stock using historical data and models. This project provides a baseline pipeline to load CSV data, run a simple regression model, and save predictions and metrics.
+
+2. How to run
+- Place your CSV(s) in the same folder as the script.
+- Ensure columns: Date, Open, High, Low, Close, Volume
+- Run:
+    python stock_prediction.py
+- Output:
+    - predictions.csv (Actual vs Predicted)
+    - RMSE printed to console
+
+3. Files included
+- stock_prediction.py : Main script (auto-detects CSV)
+- stock_data.csv : Sample CSV (replace with your own)
+- Report.txt : This file
+- Presentation.pptx : Simple presentation
+- README.txt : Quick instructions
