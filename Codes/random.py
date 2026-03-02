@@ -1,0 +1,1 @@
+print("This is a random file with print command")
