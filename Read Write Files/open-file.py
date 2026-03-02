@@ -1,0 +1,5 @@
+f = open(r"C:\Users\Adhrit\Desktop\Coding\Python\Read Write Files\demo.txt")
+data = f.read()
+print(data)
+print("Type of file : ",type(data))
+f.close()
